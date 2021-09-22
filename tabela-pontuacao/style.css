@@ -1,0 +1,92 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 600px;
+  background-image: url("../tabela-pontuacao/golf-background.png");
+  background-color: #111;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+table {
+  border: 2px solid white;
+  border-collapse: collapse;
+  background-color: black;
+  opacity: 0.8;
+  
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
+  font-size: 40px;
+  color: #FFFAA1;
+  text-shadow: 3px 3px 2px black;
+}
+
+h2 {
+  font-size: 100%;
+}
+
+p {
+  font-size: 80%;
+  color: black;
+  margin: 0px;
+  
+}
+
+#instrucoes {
+  margin: 20px auto;
+}
+
+th {
+  font-size: 20px;
+  border: solid 1px white;
+  color: #FFFAA1;
+}
+
+tr,
+td {
+  border: solid 1px white;
+  color: white;
+}
+
+#tabelaJogadores button {
+  background-color: #7F0000;
+  color: white;
+  font-weight: bolder;
+  border-radius: 6px;
+  margin: 3px;
+
+}
